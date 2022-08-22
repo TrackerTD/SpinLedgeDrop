@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="GameAPI">
+      <UniqueIdentifier>{814efaf0-a366-4734-b796-6cad4ed10306}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Objects">
+      <UniqueIdentifier>{c101d774-ac97-4e08-abc8-d1422ecda56b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameAPI\C\GameAPI\Game.c">
+      <Filter>GameAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="Objects\player.c">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameAPI\C\GameAPI\Game.h">
+      <Filter>GameAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="GameAPI\C\GameAPI\GameLink.h">
+      <Filter>GameAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="GameAPI\C\GameAPI\GameObjects.h">
+      <Filter>GameAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="GameAPI\C\GameAPI\GameVariables.h">
+      <Filter>GameAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects\Player.h">
+      <Filter>Source Files\Objects</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
