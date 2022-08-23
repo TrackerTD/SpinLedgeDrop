@@ -42,5 +42,6 @@ void Player_Action_Spindash_Hook(bool32 skipped)
         return;
     RSDK_THIS(Player);
     self->groundVel = 0;
+    self->nextAirState = Player_State_Air;
 }
 
